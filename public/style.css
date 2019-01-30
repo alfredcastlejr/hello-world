@@ -1,0 +1,65 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-image: url('/images/solocup.jpg')
+
+}
+
+a {
+  text-decoration: none;
+  color: purple
+}
+
+a:visited {
+   color: blue
+}
+
+#container {
+  background-color: white;
+}
+
+#header {
+background-color: #424242;
+color: white;
+text-align: center;
+}
+
+content {
+  Padding: 12px;
+}
+
+nav {
+  width: 180px;
+  Float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav .selected { 
+font-weight: bold;
+font-family: 'Montserrat', monospace;
+
+
+}
+
+#main {
+ width: 600px;
+ float: right; 
+
+}
+
+#footer {
+clear: both;
+
+}
